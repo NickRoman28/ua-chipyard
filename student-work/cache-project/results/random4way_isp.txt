@@ -1,0 +1,12 @@
+Running ISP benchmark on Random4WayConfig...
+isp_bench
+phase          cycles    instret     branch       load        mul  bp_dir_ms  bp_tgt_ms   md_stall    ic_miss    dc_miss
+gain           234061      57295      12258       4098       4096       4130       8194      12314          2         13
+vfilter        168580     139795       7938       8192          0       7925          3          0          2        206
+downscale      442093     106002      11298      15625       7812       7851          2      23508          3         34
+bgmodel        127322      44372       5128       4608          0       4342          2          0          2       4538
+detect         593254     426156      65568      65536          0      32774         34          0          3         32
+CHECKSUM,16354626226523808691
+%Warning: System has stack size 8192 kb which may be too small; suggest 'ulimit -c 11431' or larger
+[UART] UART0 is here (stdin/stdout).
+- /workspace/chipyard/sims/verilator/generated-src/chipyard.harness.TestHarness.Random4WayConfig/gen-collateral/TestDriver.v:158: Verilog $finish
